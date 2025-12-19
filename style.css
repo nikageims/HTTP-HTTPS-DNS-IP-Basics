@@ -1,0 +1,163 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #00ffd5, #00d9ff);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 305px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: #66ff00;
+  color: white;
+  padding: 40px 40px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.info {
+  background: white;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.info h2 {
+  margin-bottom: 10px;
+  color: #0077ff;
+}
+
+.info ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.steps {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.steps div {
+  background: #eef4ff;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.table-section {
+  padding: 40px;
+  text-align: center;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background: #00ff80;
+  color: white;
+}
+
+.secure {
+  border-left: 6px solid #1eff00;
+}
+
+.danger {
+  border-left: 6px solid red;
+}
+
+.slide {
+  background: white;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  text-decoration: none;
+  color: #00ff6a;
+  font-weight: bold;
+}
+
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00ffd5, #00ffff);
+  border-radius: 10px;
+}

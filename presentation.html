@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTTP & HTTPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HTTP & HTTPS</h1>
+        <p>რა არის და რა განსხვავებაა მათ შორის</p>
+    </header>
+
+    <section class="container">
+        <div class="card">
+            <h2>რა არის HTTP?</h2>
+            <p>
+                HTTP (HyperText Transfer Protocol) არის პროტოკოლი,
+                რომელიც ბრაუზერსა და სერვერს შორის მონაცემების გადაცემას უზრუნველყოფს.
+            </p>
+            <ul>
+                <li>არ არის დაცული</li>
+                <li>მონაცემები იგზავნება ღიად</li>
+                <li>გამოიყენებოდა ძველ საიტებზე</li>
+            </ul>
+        </div>
+
+        <div class="card secure">
+            <h2>რა არის HTTPS?</h2>
+            <p>
+                HTTPS (HyperText Transfer Protocol Secure) არის HTTP-ის უსაფრთხო ვერსია,
+                რომელიც იყენებს შიფრაციას.
+            </p>
+            <ul>
+                <li>დაცულია SSL/TLS-ით</li>
+                <li>მონაცემები დაშიფრულია</li>
+                <li>გამოიყენება თანამედროვე საიტებზე</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="table-section">
+        <h2>HTTP და HTTPS განსხვავება</h2>
+        <table>
+            <tr>
+                <th>HTTP</th>
+                <th>HTTPS</th>
+            </tr>
+            <tr>
+                <td>არ არის უსაფრთხო</td>
+                <td>დაცულია</td>
+            </tr>
+            <tr>
+                <td>მონაცემები ღიაა</td>
+                <td>მონაცემები დაშიფრულია</td>
+            </tr>
+            <tr>
+                <td>არ აქვს სერტიფიკატი</td>
+                <td>აქვს SSL სერტიფიკატი</td>
+            </tr>
+        </table>
+    </section>
+    <section class="info">
+        <h2>რა არის SSL / TLS?</h2>
+        <p>
+            SSL (Secure Sockets Layer) და TLS (Transport Layer Security)
+            არის უსაფრთხოების ტექნოლოგიები, რომლებიც მონაცემებს შიფრავს.
+        </p>
+
+        <ul>
+            <li>იცავს პაროლებს</li>
+            <li>იცავს საბანკო მონაცემებს</li>
+            <li>არ აძლევს ჰაკერს ინფორმაციის წაკითხვის საშუალებას</li>
+        </ul>
+    </section>
+
+    <section class="info">
+        <h2>როგორ მუშაობს Request / Response?</h2>
+        <p>
+            როცა მომხმარებელი შედის ვებსაიტზე, ბრაუზერი აგზავნის მოთხოვნას (Request)
+            სერვერზე. სერვერი პასუხობს (Response) და აბრუნებს საიტის კონტენტს.
+        </p>
+
+        <div class="steps">
+            <div>1️⃣ ბრაუზერი აგზავნის მოთხოვნას</div>
+            <div>2️⃣ სერვერი ამუშავებს მონაცემებს</div>
+            <div>3️⃣ სერვერი აბრუნებს პასუხს</div>
+        </div>
+    </section>
+    <section class="info">
+        <h2>HTTPS და Google (SEO)</h2>
+        <p>
+            Google უპირატესობას ანიჭებს HTTPS საიტებს.
+            ასეთი საიტები უკეთ ჩანს ძიების შედეგებში.
+        </p>
+    </section>
+    <section class="info">
+        <h2>სად გამოიყენება HTTPS?</h2>
+        <ul>
+            <li>ონლაინ მაღაზიები</li>
+            <li>ბანკის ვებსაიტები</li>
+            <li>სოციალური ქსელები</li>
+            <li>ელფოსტა</li>
+            <li>სახელმწიფო პორტალები</li>
+        </ul>
+    </section>
+    <section class="info danger">
+        <h2>რა საფრთხეა HTTP-ის გამოყენებისას?</h2>
+        <ul>
+            <li>პაროლების მოპარვა</li>
+            <li>პირადი ინფორმაციის გაჟონვა</li>
+            <li>ჰაკერული შეტევები</li>
+            <li>ფიშინგი</li>
+        </ul>
+    </section>
+    <a href="index.html" class="back">⬅ უკან</a>
+    <footer>
+        <p>© 2025 HTTP & HTTPS პრეზენტაცია</p>
+    </footer>
+
+</body>
+
+</html>
